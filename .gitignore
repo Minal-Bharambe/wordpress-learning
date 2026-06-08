@@ -1,17 +1,24 @@
-# Ignore WordPress Core
+# WordPress Core
 /wp-admin/
 /wp-includes/
 
-# Ignore all themes except custom one
+# Uploads
+/wp-content/uploads/
+
+# Cache
+/wp-content/cache/
+
+# Ignore all themes
 /wp-content/themes/*
+
+# Keep only our custom theme
 !/wp-content/themes/custom-theme/
 
-# Ignore all plugins except custom ones
-/wp-content/plugins/*
-!/wp-content/plugins/custom-plugin/
+# Ignore all plugins
+/wp-content/plugins/akismet/
 
-# Ignore uploads
-/wp-content/uploads/
+# Keep only our custom plugin
+!/wp-content/plugins/elementor/
 
 # macOS
 .DS_Store
