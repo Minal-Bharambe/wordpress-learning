@@ -1,0 +1,17 @@
+# Ignore WordPress Core
+/wp-admin/
+/wp-includes/
+
+# Ignore all themes except custom one
+/wp-content/themes/*
+!/wp-content/themes/custom-theme/
+
+# Ignore all plugins except custom ones
+/wp-content/plugins/*
+!/wp-content/plugins/custom-plugin/
+
+# Ignore uploads
+/wp-content/uploads/
+
+# macOS
+.DS_Store
